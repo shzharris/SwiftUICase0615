@@ -6,14 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6FB46E092DFEF9A7000130BE /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46E082DFEF9A7000130BE /* Goal+CoreDataProperties.swift */; };
+		6FB46E0A2DFEF9A7000130BE /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB46E072DFEF9A7000130BE /* Goal+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6FB46DE22DFEC35F000130BE /* LifeTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB46E072DFEF9A7000130BE /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataClass.swift"; path = "Model/Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6FB46E082DFEF9A7000130BE /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Goal+CoreDataProperties.swift"; path = "Model/Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6FB46DE42DFEC35F000130BE /* LifeTarget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LifeTarget;
+			sourceTree = "<group>";
+		};
+		6FB46DF22DFECA71000130BE /* OnboardingView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		6FB46DF92DFEF1AD000130BE /* Extensions */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6FB46DFA2DFEF593000130BE /* Utils */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6FB46DFD2DFEF7A7000130BE /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FB46E002DFEF82B000130BE /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FB46E2B2DFEFBA4000130BE /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +69,14 @@
 		6FB46DD92DFEC35F000130BE = {
 			isa = PBXGroup;
 			children = (
+				6FB46E2B2DFEFBA4000130BE /* ViewModel */,
+				6FB46E072DFEF9A7000130BE /* Goal+CoreDataClass.swift */,
+				6FB46E082DFEF9A7000130BE /* Goal+CoreDataProperties.swift */,
+				6FB46E002DFEF82B000130BE /* Model */,
+				6FB46DFD2DFEF7A7000130BE /* View */,
+				6FB46DFA2DFEF593000130BE /* Utils */,
+				6FB46DF92DFEF1AD000130BE /* Extensions */,
+				6FB46DF22DFECA71000130BE /* OnboardingView */,
 				6FB46DE42DFEC35F000130BE /* LifeTarget */,
 				6FB46DE32DFEC35F000130BE /* Products */,
 			);
@@ -62,6 +107,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6FB46DE42DFEC35F000130BE /* LifeTarget */,
+				6FB46DF22DFECA71000130BE /* OnboardingView */,
+				6FB46DF92DFEF1AD000130BE /* Extensions */,
+				6FB46DFA2DFEF593000130BE /* Utils */,
+				6FB46DFD2DFEF7A7000130BE /* View */,
+				6FB46E002DFEF82B000130BE /* Model */,
+				6FB46E2B2DFEFBA4000130BE /* ViewModel */,
 			);
 			name = LifeTarget;
 			packageProductDependencies = (
@@ -119,6 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB46E092DFEF9A7000130BE /* Goal+CoreDataProperties.swift in Sources */,
+				6FB46E0A2DFEF9A7000130BE /* Goal+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
